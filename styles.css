@@ -1,0 +1,293 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+}
+
+#headofweb {
+    width: 960px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar Menu */
+.toolbar {
+    width: 960px;
+    height: 60px;
+    background-color: rgb(10, 156, 231);
+}
+
+.menu {
+    list-style: none;
+}
+
+    .menu li {
+        float: left;
+        width: 80px;
+        height: 50px;
+        line-height: 50px;
+        font-family: calibri;
+        margin-left: 35px;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+
+        .menu li a {
+            display: block;
+        }
+
+        .menu li:hover {
+            background-color: rgb(42,42,42);
+        }
+/*(Navbar Menu)*/
+
+.sub {
+    width: 960px;
+    height: 80px;
+}
+
+.wallet {
+    width: 200px;
+    height: 80px;
+    background-color: rgb(41,185,238);
+    float: left;
+    text-align: center;
+}
+
+    .wallet span {
+        font-size: 40px;
+        color: white;
+        line-height: 80px;
+        font-family: magneto;
+    }
+
+/* Log In form container*/
+.form {
+    width: 760px;
+    height: 80px;
+    float: left;
+}
+
+/* (username, password, checkbox and button) */
+.form_entry {
+    height: 40px;
+    line-height: 40px;
+    width: 750px;
+    background-color: rgb(41,185,238);
+    padding-left: 10px;
+    font-size: 13px;
+    font-family: calibri;
+    color: white;
+}
+
+input[type=text] {
+    padding-left: 10px;
+    height: 20px;
+}
+
+/* Forget your password, Username, Create an Account */
+.form_extra {
+    height: 40px;
+    line-height: 40px;
+    font-family: calibri;
+    width: 760px;
+    background-color: rgb(42,42,42);
+}
+
+    .form_extra span {
+        margin-left: 30px;
+        font-size: 13px;
+    }
+
+/* Bussiness Tax Payment */
+.web-title {
+    margin: 0 auto;
+    width: 960px;
+    height: 180px;
+    line-height: 180px;
+    background-color: rgba(42,42,42,0);
+    font-size: 50px;
+    font-family: calibri;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+/* Content of webpage */
+#wrapper {
+    width: 960px;
+    height: 850px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+/* Srachbar */
+.search_bar {
+    width: 920px;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(42,42,42,0.6);
+    margin: 0 auto;
+    padding-left: 40px;
+    position: relative;
+}
+
+/* Web Logo*/
+.man-icon {
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    bottom: 47px;
+    left: 680px;
+}
+
+/* Sidebar Menues */
+.sidy {
+    float: left;
+}
+
+.sidebar1 {
+    width: 236px;
+    background-color: rgb(240,240,240);
+    margin: 10px 10px 0 10px;
+    border: 2px solid rgb(232,232,232);
+    padding: 30px 20px;
+}
+
+.sidebar2 {
+    width: 236px;
+    background-color: rgb(240,240,240);
+    margin: 10px 10px 0 10px;
+    border: 2px solid rgb(232,232,232);
+    padding: 30px 20px;
+    float: right;
+}
+
+.latestNews {
+    display: block;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-family: calibri;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.news_headline {
+    width: 180px;
+    background-color: rgb(255,255,255);
+    margin-top: 10px;
+    border-radius: 5px;
+    border-left: 55px solid rgb(46,46,46);
+}
+
+.headline_date {
+    display: inline-block;
+    width: 55px;
+    margin-left: -55px;
+    margin-top: 10px;
+    line-height: 15px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: calibri;
+    float: left;
+}
+
+.headline_title {
+    display: inline-block;
+    height: 50px;
+    width: 160px;
+    font-size: 10px;
+    font-family: calibri;
+    padding: 15px;
+    color: rgb(127,127,127);
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.more {
+    font-style: italic;
+    font-family: calibri;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+    color: rgb(77,141,169);
+}
+
+.service_list {
+    margin-left: 10px;
+    list-style-image: url(images/pointer.png);
+    font-family: calibri;
+    font-size: 15px;
+    text-decoration: underline;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.service_list {
+    margin-top: 3px;
+    line-height: 25px;
+}
+/*(Sidebar Menues)*/
+
+/* Articles */
+.article-container {
+    width: 560px;
+    height: 410px;
+    padding: 30px;
+    background-color: rgb(255,255,255);
+    float: left;
+}
+
+.article {
+    width: 580px;
+    border-width: 0 0 2px 0;
+    border-color: rgb(232,232,232);
+    border-style: solid;
+    margin-top: 18px;
+    float: left;
+}
+
+.article-title {
+    display: inline-block;
+    width: 150px;
+    margin-left: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.article-text {
+    color: rgb(127,127,127);
+    font-size: 12px;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-family: calibri;
+}
+/*(Articles)*/
+
+/* Footer */
+.footer {
+    width: 896px;
+    background-color: rgb(240,240,240);
+    color: rgb(127,127,127);
+    border: 2px solid rgb(232,232,232);
+    padding: 10px 30px;
+    margin: 0 auto;
+    font-size: 15px;
+}
